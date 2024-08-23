@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(190, 251, 122, 0) 42.53%,
+      #befb7a 230.08%
+    );
+  }
+}
