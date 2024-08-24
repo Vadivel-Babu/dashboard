@@ -7,6 +7,7 @@ export default {
         green: "#BEFB7A",
         violet: "#9B76D6",
         white: "#fff",
+        lightblack: "#344054",
       },
     },
     backgroundImage: {

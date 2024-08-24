@@ -1,10 +1,14 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
+import Searchbar from "./components/Searchbar";
 
 const App = () => {
   return (
-    <div className="font-inter">
+    <div className="font-inter text-lightblack flex">
       <Sidebar />
+      <div className=" w-full">
+        <Searchbar />
+      </div>
     </div>
   );
 };
