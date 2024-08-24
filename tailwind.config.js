@@ -8,6 +8,8 @@ export default {
         violet: "#9B76D6",
         white: "#fff",
         lightblack: "#344054",
+        bordercolor: "#F2F4F7",
+        lightgray: "#FCFCFD",
       },
     },
     backgroundImage: {
