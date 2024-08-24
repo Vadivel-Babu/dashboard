@@ -13,7 +13,7 @@ import HelpSvg from "../svg/HelpSvg";
 import LogoutSvg from "../svg/LogoutSvg";
 const Sidebar = () => {
   return (
-    <nav className=" bg-violet text-white w-[245px] py-9">
+    <nav className=" bg-violet text-white w-[70px]  md:w-[245px] py-9">
       <div>
         <img
           src="name.svg"

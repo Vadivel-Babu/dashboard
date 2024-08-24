@@ -8,7 +8,7 @@ import Trades from "./components/Trades";
 
 const App = () => {
   return (
-    <div className="font-inter text-lightblack flex">
+    <div className="font-inter text-lightblack flex overflow-hidden">
       <Sidebar />
       <div className=" w-full">
         <Searchbar />
