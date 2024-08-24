@@ -13,7 +13,7 @@ import HelpSvg from "../svg/HelpSvg";
 import LogoutSvg from "../svg/LogoutSvg";
 const Sidebar = () => {
   return (
-    <nav className=" bg-violet text-white w-max py-9">
+    <nav className=" bg-violet text-white w-[245px] py-9">
       <div>
         <img src="name.svg" alt="logo" className="w-50 py-4 px-5" />
       </div>
@@ -91,7 +91,9 @@ const Sidebar = () => {
           <img src="user.svg" alt="user" />
           <div>
             <h1>Shyam Shakur</h1>
-            <p>{"shyam01.shankur@mail.com".slice(0, 17)}...</p>
+            <p className="text-sm">
+              {"shyam01.shankur@mail.com".slice(0, 17)}...
+            </p>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ const QuickLinks = () => {
     { title: "analytics", svg: "analytics.svg" },
   ];
   return (
-    <div className="max-w-[49.5rem] p-3 border border-bordercolor rounded-xl">
+    <div className=" p-3 border border-bordercolor rounded-xl">
       <h1 className="text-sm">QuickLinks</h1>
       <div className="flex flex-wrap gap-2 mt-3">
         {links.map((link, i) => (
