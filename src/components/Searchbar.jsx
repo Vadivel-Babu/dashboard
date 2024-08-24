@@ -5,7 +5,9 @@ import SearchNotificationSvg from "../svg/SearchNotificationSvg";
 const Searchbar = () => {
   return (
     <div className="bg-lightgray flex items-center p-5 w-full justify-between border-b-[1px] border-bordercolor">
-      <h1 className="text-lightblack text-lg">Dashboard</h1>
+      <h1 className="text-lightblack text-lg hidden md:inline-block">
+        Dashboard
+      </h1>
       <div className="flex items-center gap-3">
         <div className="flex items-center border p-2 gap-2 rounded-lg border-[#EAECF0]">
           <SearchSvg />

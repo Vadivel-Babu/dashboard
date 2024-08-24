@@ -5,7 +5,6 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  CartesianGrid,
   Legend,
   ResponsiveContainer,
 } from "recharts";
@@ -68,7 +67,7 @@ const Chart = () => {
     },
   ];
   return (
-    <div className="w-full border border-bordercolor rounded-xl p-4">
+    <div className="w-full border border-bordercolor rounded-xl p-4 mt-2">
       <div className="flex justify-between">
         <h1 className="text-sm">Overview</h1>
         <button className="text-[#AD8EDD] flex gap-2 text-sm">
@@ -96,7 +95,7 @@ const Chart = () => {
           Yearly
         </p>
       </div>
-      <ResponsiveContainer width={"100%"} height={300} className="mt-4">
+      <ResponsiveContainer width={"100%"} height={400} className="mt-4">
         <BarChart width={100} height={650} data={data}>
           <XAxis
             dataKey="name"
